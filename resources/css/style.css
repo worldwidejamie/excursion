@@ -4,16 +4,38 @@
 	font-family: "Verdana", sans-serif;
 }
 
+* + * {
+	margin-top: 3rem;
+}
+
 body {
 	background-color: black;
 	font-size: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 h1 {
 	font-weight: normal;
 	font-size: 3.125rem;
 }
+h2 {
+	font-weight: 300;
+	font-size: 2.625rem;
+}
+
 a,
-span {
+a span {
 	color: aquamarine;
 }
+
+video {
+	max-width: 25vw;
+}
+
+.copyright {
+	width: 100%;
+	text-align: right;
+}
+
